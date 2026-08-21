@@ -1,1 +1,40 @@
 
+
+    <p class="summary"><strong>In short:</strong> Inventory analysis and PNG generation run locally. The extension has no analytics, advertising, telemetry, or developer backend. Optional pricing requests go only to Valve's Steam services after the user starts them.</p>
+
+    <p>Steam CS History Scanner is a local, read-only browser extension that analyzes Counter-Strike 2 events shown in the user's Steam Inventory History.</p>
+
+    <h2>Data the extension accesses</h2>
+    <p>When the user clicks the extension on a supported Steam Inventory History page, the extension reads the case-opening and item-drop information displayed by Steam. This can include item names, case names, dates, rarity, wear, StatTrak status, collection information, and Steam Market identifiers.</p>
+    <p>The extension does not read, copy, display, or store the user's Steam password or authentication credentials. It does not access unrelated browsing history.</p>
+
+    <h2>How data is used</h2>
+    <p>Inventory History analysis, totals, sorting, value calculations, and PNG generation are performed locally in the user's browser.</p>
+    <p>The extension stores the selected currency preference and may cache derived Steam Market reference prices locally in the browser to improve performance. The extension does not create a developer-operated user profile.</p>
+
+    <h2>Network requests</h2>
+    <p>Price loading is optional and starts only after the user clicks the price-loading button. During this process, exact Steam Market item names are sent to Steam Community and Steam Market endpoints to retrieve official historical and current market reference prices. The browser may use the Steam session already established by the user for these same-site requests. The extension does not read or transmit the user's credentials to the developer.</p>
+    <p>Official item images used in exported summaries may be downloaded from Steam's official static image hosts without credentials.</p>
+    <p>The extension also contains an optional support panel. Crypto wallet addresses and QR codes are bundled in the extension and do not require a network request. If the user explicitly clicks <strong>Open Ko-fi tip panel</strong>, the browser opens Ko-fi's official tip-panel page in a separate compact browser window. Its fixed query parameters control Ko-fi's widget display only. The URL contains no Steam credentials, Inventory History content, scan results, extension-generated identifiers, or extension tracking parameters. Ko-fi and any payment provider selected there, such as PayPal, receive the ordinary connection and payment information needed to operate their own websites under their own privacy policies. The extension does not receive payment details.</p>
+
+    <h2>Data sharing</h2>
+    <p>No Inventory History data is sent to the extension developer. The extension has no analytics, telemetry, advertisements, developer backend, or third-party price provider. Market item identifiers are shared only with Valve's Steam services when the user requests Steam pricing. Opening Ko-fi is optional, requires a direct user click, and does not transfer scanner data to Ko-fi.</p>
+
+    <h2>Data retention</h2>
+    <p>The developer does not receive or retain user data through the extension. Local preferences and cached price references remain in the user's browser and can be removed by clearing Steam site data or uninstalling the extension. The extension does not detect, verify, or retain donation activity.</p>
+
+    <h2>Children's privacy</h2>
+    <p>The extension does not knowingly collect personal information from children or any other users.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>Material changes will be reflected in an updated policy and, where required, in the extension listing or interface before the changed data practice begins.</p>
+
+    <h2>Contact</h2>
+    <p>For privacy or support questions, contact <a href="mailto:cscasehistory@gmail.com">cscasehistory@gmail.com</a>.</p>
+
+    <h2>Trademark notice</h2>
+    <p>This extension is an independent community tool. It is not affiliated with, endorsed by, or sponsored by Valve Corporation. Steam, Counter-Strike, and CS2 are trademarks or registered trademarks of their respective owners.</p>
+
+    <footer>Steam CS History Scanner · Local read-only analysis</footer>
+</html>
+
