@@ -1,4 +1,82 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the Steam CS History Scanner browser extension.">
+  <title>Privacy Policy | Steam CS History Scanner</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --page: #0e1822;
+      --surface: #172634;
+      --surface-strong: #203344;
+      --text: #edf5fb;
+      --muted: #abc0d0;
+      --accent: #66c0f4;
+      --border: #365166;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(160deg, #0b141d 0%, var(--page) 45%, #132433 100%);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(24px, 5vw, 56px);
+      background: rgba(23, 38, 52, 0.96);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+    }
+    h1, h2 { line-height: 1.25; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3rem); }
+    h2 {
+      margin: 36px 0 12px;
+      padding-top: 8px;
+      color: var(--accent);
+      font-size: 1.3rem;
+    }
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+    a { color: var(--accent); }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .updated {
+      margin: 0 0 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .summary {
+      padding: 18px 20px;
+      background: var(--surface-strong);
+      border-left: 4px solid var(--accent);
+      border-radius: 10px;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Steam CS History Scanner</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: August 21, 2026</p>
 
     <p class="summary"><strong>In short:</strong> Inventory analysis and PNG generation run locally. The extension has no analytics, advertising, telemetry, or developer backend. Optional pricing requests go only to Valve's Steam services after the user starts them.</p>
 
@@ -36,5 +114,7 @@
     <p>This extension is an independent community tool. It is not affiliated with, endorsed by, or sponsored by Valve Corporation. Steam, Counter-Strike, and CS2 are trademarks or registered trademarks of their respective owners.</p>
 
     <footer>Steam CS History Scanner · Local read-only analysis</footer>
+  </main>
+</body>
 </html>
 
