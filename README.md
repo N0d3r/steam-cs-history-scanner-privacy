@@ -1,0 +1,1 @@
+# steam-cs-history-scanner-privacy
